@@ -1,0 +1,14 @@
+[project]
+name = "jason_lib"
+dynamic = ["version"]
+description = "jason's python lib"
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=42", "wheel", "setuptools_scm>=6.0.1"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "jason_lib/_version.py"
