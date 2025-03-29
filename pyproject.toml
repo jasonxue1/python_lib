@@ -1,10 +1,7 @@
 [project]
-name = "jason_lib"
+name = "jasonxue_personal_lib"
 dynamic = ["version"]
 description = "jason's python lib"
 readme = "README.md"
 requires-python = ">=3.6"
-dependencies = []
-
-[project.scripts]
-test = "test:test_better_print_str"
+dependencies = ["wcwidth"]
