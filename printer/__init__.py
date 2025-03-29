@@ -33,3 +33,6 @@ def print_table(table: list):
             for i, cell in enumerate(row)
         )
         print(formatted_row)
+
+
+__all__ = ["better_print_str", "print_table"]
